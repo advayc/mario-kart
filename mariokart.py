@@ -62,6 +62,9 @@ T = 30  # seconds
 # uses some basic physics - distance = acceleration * time^2 / 2 during speedup
 # then adds constant speed distance if we hit max speed
 def calculate_displacement(vmax, a, T):
+    # Ensure minimum acceleration
+    a = max(0.1, a)  # minimum acceleration of 0.1
+    
     # time it takes to reach top speed
     t1 = vmax / a  
     
@@ -99,7 +102,7 @@ for driver, kart in product(drivers, karts):
 # turn our list into a pandas dataframe
 df = pd.DataFrame(data)
 
-# put all into an excel file
-df.to_excel("Mario_Kart_Displacement.xlsx", index=False)
+# save as CSV instead of Excel
+df.to_csv("Mario_Kart_Displacement.csv", index=False)
 
-print("spreadsheet created: Mario_Kart_Displacement.xlsx")
+print("spreadsheet created: Mario_Kart_Displacement.csv")
