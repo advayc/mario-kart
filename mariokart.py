@@ -1,108 +1,92 @@
 import pandas as pd
 from itertools import product
 
-# wg = weight/speed boost
-# ac = acceleration boost
+# driver stats (MS = max speed, AC = acceleration)
 drivers = [
-    {"Name": "Mario", "WG": 6, "AC": 2},
-    {"Name": "Luigi", "WG": 6, "AC": 2},
-    {"Name": "Peach", "WG": 4, "AC": 3},
-    {"Name": "Daisy", "WG": 4, "AC": 3},
-    {"Name": "Yoshi", "WG": 4, "AC": 3},
-    {"Name": "Toad", "WG": 2, "AC": 4},
-    {"Name": "Toadette", "WG": 2, "AC": 4},
-    {"Name": "Koopa Troopa", "WG": 2, "AC": 4},
-    {"Name": "Bowser", "WG": 10, "AC": 0},
-    {"Name": "Donkey Kong", "WG": 8, "AC": 1},
-    {"Name": "Wario", "WG": 10, "AC": 0},
-    {"Name": "Waluigi", "WG": 8, "AC": 1},
-    {"Name": "Rosalina", "WG": 8, "AC": 1},
-    {"Name": "Metal Mario", "WG": 10, "AC": 0}
+    {"Name": "Mario", "MS": 7, "AC": 2},
+    {"Name": "Luigi", "MS": 6, "AC": 2},
+    {"Name": "Peach", "MS": 4, "AC": 3},
+    {"Name": "Daisy", "MS": 4, "AC": 3},
+    {"Name": "Yoshi", "MS": 4, "AC": 3},
+    {"Name": "Toad", "MS": 2, "AC": 4},
+    {"Name": "Toadette", "MS": 2, "AC": 4},
+    {"Name": "Koopa Troopa", "MS": 2, "AC": 4},
+    {"Name": "Bowser", "MS": 10, "AC": 0},
+    {"Name": "Donkey Kong", "MS": 8, "AC": 1},
+    {"Name": "Wario", "MS": 10, "AC": 0},
+    {"Name": "Waluigi", "MS": 8, "AC": 1},
+    {"Name": "Rosalina", "MS": 8, "AC": 1},
+    {"Name": "Metal Mario", "MS": 10, "AC": 0}
 ]
 
-# all the karts and their stats
+# kart stats
 karts = [
-    {"Name": "Standard Kart", "WG": 2, "AC": 2},
-    {"Name": "Pipe Frame", "WG": 1, "AC": 3},
-    {"Name": "Mach 8", "WG": 3, "AC": 1},
-    {"Name": "Steel Driver", "WG": 4, "AC": 0},
-    {"Name": "Cat Cruiser", "WG": 2, "AC": 2},
-    {"Name": "Circuit Special", "WG": 3, "AC": 1},
-    {"Name": "Tri-Speeder", "WG": 4, "AC": 0},
-    {"Name": "Badwagon", "WG": 4, "AC": 0},
-    {"Name": "Biddybuggy", "WG": 0, "AC": 7},
-    {"Name": "Landship", "WG": 0, "AC": 7},
-    {"Name": "Sneeker", "WG": 2, "AC": 2},
-    {"Name": "Sports Coupe", "WG": 3, "AC": 1},
-    {"Name": "Gold Standard", "WG": 3, "AC": 1},
-    {"Name": "Standard Bike", "WG": 1, "AC": 3},
-    {"Name": "Comet", "WG": 1, "AC": 5},
-    {"Name": "Sport Bike", "WG": 1, "AC": 5},
-    {"Name": "The Duke", "WG": 2, "AC": 2},
-    {"Name": "Flame Rider", "WG": 1, "AC": 3},
-    {"Name": "Varmint", "WG": 1, "AC": 3},
-    {"Name": "Mr. Scooty", "WG": 0, "AC": 7},
-    {"Name": "Jet Bike", "WG": 1, "AC": 5},
-    {"Name": "Yoshi Bike", "WG": 1, "AC": 5},
-    {"Name": "Standard ATV", "WG": 4, "AC": 0},
-    {"Name": "Wild Wiggler", "WG": 1, "AC": 3},
-    {"Name": "Teddy Buggy", "WG": 2, "AC": 2},
-    {"Name": "GLA", "WG": 4, "AC": 0},
-    {"Name": "W 25 Silver Arrow", "WG": 1, "AC": 3},
-    {"Name": "300 SL Roadster", "WG": 2, "AC": 2},
-    {"Name": "Blue Falcon", "WG": 1, "AC": 3},
-    {"Name": "Tanooki Kart", "WG": 3, "AC": 1},
-    {"Name": "B Dasher", "WG": 3, "AC": 1},
-    {"Name": "Master Cycle", "WG": 2, "AC": 2}
+    {"Name": "Standard Kart", "MS": 3, "AC": 3},
+    {"Name": "Pipe Frame", "MS": 1, "AC": 3},
+    {"Name": "Mach 8", "MS": 3, "AC": 1},
+    {"Name": "Steel Driver", "MS": 4, "AC": 0},
+    {"Name": "Cat Cruiser", "MS": 2, "AC": 2},
+    {"Name": "Circuit Special", "MS": 3, "AC": 1},
+    {"Name": "Tri-Speeder", "MS": 4, "AC": 0},
+    {"Name": "Badwagon", "MS": 4, "AC": 0},
+    {"Name": "Biddybuggy", "MS": 0, "AC": 7},
+    {"Name": "Landship", "MS": 0, "AC": 7},
+    {"Name": "Sneeker", "MS": 2, "AC": 2},
+    {"Name": "Sports Coupe", "MS": 3, "AC": 1},
+    {"Name": "Gold Standard", "MS": 3, "AC": 1},
+    {"Name": "Standard Bike", "MS": 1, "AC": 3},
+    {"Name": "Comet", "MS": 1, "AC": 5},
+    {"Name": "Sport Bike", "MS": 1, "AC": 5},
+    {"Name": "The Duke", "MS": 2, "AC": 2},
+    {"Name": "Flame Rider", "MS": 1, "AC": 3},
+    {"Name": "Varmint", "MS": 1, "AC": 3},
+    {"Name": "Mr. Scooty", "MS": 0, "AC": 7},
+    {"Name": "Jet Bike", "MS": 1, "AC": 5},
+    {"Name": "Yoshi Bike", "MS": 1, "AC": 5},
+    {"Name": "Standard ATV", "MS": 4, "AC": 0},
+    {"Name": "Wild Wiggler", "MS": 1, "AC": 3},
+    {"Name": "Teddy Buggy", "MS": 2, "AC": 2},
+    {"Name": "GLA", "MS": 4, "AC": 0},
+    {"Name": "W 25 Silver Arrow", "MS": 1, "AC": 3},
+    {"Name": "300 SL Roadster", "MS": 2, "AC": 2},
+    {"Name": "Blue Falcon", "MS": 1, "AC": 3},
+    {"Name": "Tanooki Kart", "MS": 3, "AC": 1},
+    {"Name": "B Dasher", "MS": 3, "AC": 1},
+    {"Name": "Master Cycle", "MS": 2, "AC": 2}
 ]
 
-# how long we're racing for (in seconds)
-T = 30  # seconds
+# race duration (in seconds)
+T = 30
 
-# uses some basic physics - distance = acceleration * time^2 / 2 during speedup
-# then adds constant speed distance if we hit max speed
+# calculate total displacement
 def calculate_displacement(vmax, a, T):
-    # Ensure minimum acceleration
-    a = max(0.1, a)  # minimum acceleration of 0.1
+    a = max(0.1, a)  # ensure minimum acceleration
+    t1 = vmax / a  # time to reach max speed
     
-    # time it takes to reach top speed
-    t1 = vmax / a  
-    
-    # if we don't reach max speed before race ends
-    if T <= t1:  
+    if T <= t1:  # race ends before reaching max speed
         D = 0.5 * a * T**2
-    # if we do hit max speed
-    else:  
-        # distance covered while speeding up
-        D1 = 0.5 * a * t1**2  
-        # distance covered at max speed
-        D2 = vmax * (T - t1)  
+    else:  # race includes max speed phase
+        D1 = 0.5 * a * t1**2  # displacement during acceleration
+        D2 = vmax * (T - t1)  # displacement at max speed
         D = D1 + D2
     return D
 
-# store all the results in this list
+# collect data
 data = []
 for driver, kart in product(drivers, karts):
-    # add up the speed and acceleration bonuses
-    vmax = driver["WG"] + kart["WG"]  
-    a = driver["AC"] + kart["AC"]  
+    vmax = driver["MS"] + kart["MS"]  # max speed
+    a = driver["AC"] + kart["AC"]  # total acceleration
+    displacement = calculate_displacement(vmax, a, T)  # total displacement
     
-    # calculate how far this combo goes
-    displacement = calculate_displacement(vmax, a, T)
-    
-    # save all the info
     data.append({
         "Driver": driver["Name"],
         "Kart": kart["Name"],
         "Max Speed": vmax,
         "Acceleration": a,
-        "Displacement (m)": displacement
+        "Displacement (m)": round(displacement, 2)  # round for readability
     })
 
-# turn our list into a pandas dataframe
+# convert to dataframe and save as CSV
 df = pd.DataFrame(data)
-
-# save as CSV instead of Excel
 df.to_csv("Mario_Kart_Displacement.csv", index=False)
-
 print("spreadsheet created: Mario_Kart_Displacement.csv")

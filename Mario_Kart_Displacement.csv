@@ -1,38 +1,38 @@
 Driver,Kart,Max Speed,Acceleration,Displacement (m)
-Mario,Standard Kart,8,4,232.0
-Mario,Pipe Frame,7,5,205.10000000000002
-Mario,Mach 8,9,3,256.5
-Mario,Steel Driver,10,2,275.0
-Mario,Cat Cruiser,8,4,232.0
-Mario,Circuit Special,9,3,256.5
-Mario,Tri-Speeder,10,2,275.0
-Mario,Badwagon,10,2,275.0
-Mario,Biddybuggy,6,9,178.0
-Mario,Landship,6,9,178.0
-Mario,Sneeker,8,4,232.0
-Mario,Sports Coupe,9,3,256.5
-Mario,Gold Standard,9,3,256.5
-Mario,Standard Bike,7,5,205.10000000000002
-Mario,Comet,7,7,206.5
-Mario,Sport Bike,7,7,206.5
-Mario,The Duke,8,4,232.0
-Mario,Flame Rider,7,5,205.10000000000002
-Mario,Varmint,7,5,205.10000000000002
-Mario,Mr. Scooty,6,9,178.0
-Mario,Jet Bike,7,7,206.5
-Mario,Yoshi Bike,7,7,206.5
-Mario,Standard ATV,10,2,275.0
-Mario,Wild Wiggler,7,5,205.10000000000002
-Mario,Teddy Buggy,8,4,232.0
-Mario,GLA,10,2,275.0
-Mario,W 25 Silver Arrow,7,5,205.10000000000002
-Mario,300 SL Roadster,8,4,232.0
-Mario,Blue Falcon,7,5,205.10000000000002
-Mario,Tanooki Kart,9,3,256.5
-Mario,B Dasher,9,3,256.5
-Mario,Master Cycle,8,4,232.0
-Luigi,Standard Kart,8,4,232.0
-Luigi,Pipe Frame,7,5,205.10000000000002
+Mario,Standard Kart,10,5,290.0
+Mario,Pipe Frame,8,5,233.6
+Mario,Mach 8,10,3,283.33
+Mario,Steel Driver,11,2,299.75
+Mario,Cat Cruiser,9,4,259.88
+Mario,Circuit Special,10,3,283.33
+Mario,Tri-Speeder,11,2,299.75
+Mario,Badwagon,11,2,299.75
+Mario,Biddybuggy,7,9,207.28
+Mario,Landship,7,9,207.28
+Mario,Sneeker,9,4,259.88
+Mario,Sports Coupe,10,3,283.33
+Mario,Gold Standard,10,3,283.33
+Mario,Standard Bike,8,5,233.6
+Mario,Comet,8,7,235.43
+Mario,Sport Bike,8,7,235.43
+Mario,The Duke,9,4,259.88
+Mario,Flame Rider,8,5,233.6
+Mario,Varmint,8,5,233.6
+Mario,Mr. Scooty,7,9,207.28
+Mario,Jet Bike,8,7,235.43
+Mario,Yoshi Bike,8,7,235.43
+Mario,Standard ATV,11,2,299.75
+Mario,Wild Wiggler,8,5,233.6
+Mario,Teddy Buggy,9,4,259.88
+Mario,GLA,11,2,299.75
+Mario,W 25 Silver Arrow,8,5,233.6
+Mario,300 SL Roadster,9,4,259.88
+Mario,Blue Falcon,8,5,233.6
+Mario,Tanooki Kart,10,3,283.33
+Mario,B Dasher,10,3,283.33
+Mario,Master Cycle,9,4,259.88
+Luigi,Standard Kart,9,5,261.9
+Luigi,Pipe Frame,7,5,205.1
 Luigi,Mach 8,9,3,256.5
 Luigi,Steel Driver,10,2,275.0
 Luigi,Cat Cruiser,8,4,232.0
@@ -44,406 +44,406 @@ Luigi,Landship,6,9,178.0
 Luigi,Sneeker,8,4,232.0
 Luigi,Sports Coupe,9,3,256.5
 Luigi,Gold Standard,9,3,256.5
-Luigi,Standard Bike,7,5,205.10000000000002
+Luigi,Standard Bike,7,5,205.1
 Luigi,Comet,7,7,206.5
 Luigi,Sport Bike,7,7,206.5
 Luigi,The Duke,8,4,232.0
-Luigi,Flame Rider,7,5,205.10000000000002
-Luigi,Varmint,7,5,205.10000000000002
+Luigi,Flame Rider,7,5,205.1
+Luigi,Varmint,7,5,205.1
 Luigi,Mr. Scooty,6,9,178.0
 Luigi,Jet Bike,7,7,206.5
 Luigi,Yoshi Bike,7,7,206.5
 Luigi,Standard ATV,10,2,275.0
-Luigi,Wild Wiggler,7,5,205.10000000000002
+Luigi,Wild Wiggler,7,5,205.1
 Luigi,Teddy Buggy,8,4,232.0
 Luigi,GLA,10,2,275.0
-Luigi,W 25 Silver Arrow,7,5,205.10000000000002
+Luigi,W 25 Silver Arrow,7,5,205.1
 Luigi,300 SL Roadster,8,4,232.0
-Luigi,Blue Falcon,7,5,205.10000000000002
+Luigi,Blue Falcon,7,5,205.1
 Luigi,Tanooki Kart,9,3,256.5
 Luigi,B Dasher,9,3,256.5
 Luigi,Master Cycle,8,4,232.0
-Peach,Standard Kart,6,5,176.4
-Peach,Pipe Frame,5,6,147.91666666666669
-Peach,Mach 8,7,4,203.875
-Peach,Steel Driver,8,3,229.33333333333331
+Peach,Standard Kart,7,6,205.92
+Peach,Pipe Frame,5,6,147.92
+Peach,Mach 8,7,4,203.88
+Peach,Steel Driver,8,3,229.33
 Peach,Cat Cruiser,6,5,176.4
-Peach,Circuit Special,7,4,203.875
-Peach,Tri-Speeder,8,3,229.33333333333331
-Peach,Badwagon,8,3,229.33333333333331
+Peach,Circuit Special,7,4,203.88
+Peach,Tri-Speeder,8,3,229.33
+Peach,Badwagon,8,3,229.33
 Peach,Biddybuggy,4,10,119.2
 Peach,Landship,4,10,119.2
 Peach,Sneeker,6,5,176.4
-Peach,Sports Coupe,7,4,203.875
-Peach,Gold Standard,7,4,203.875
-Peach,Standard Bike,5,6,147.91666666666669
-Peach,Comet,5,8,148.4375
-Peach,Sport Bike,5,8,148.4375
+Peach,Sports Coupe,7,4,203.88
+Peach,Gold Standard,7,4,203.88
+Peach,Standard Bike,5,6,147.92
+Peach,Comet,5,8,148.44
+Peach,Sport Bike,5,8,148.44
 Peach,The Duke,6,5,176.4
-Peach,Flame Rider,5,6,147.91666666666669
-Peach,Varmint,5,6,147.91666666666669
+Peach,Flame Rider,5,6,147.92
+Peach,Varmint,5,6,147.92
 Peach,Mr. Scooty,4,10,119.2
-Peach,Jet Bike,5,8,148.4375
-Peach,Yoshi Bike,5,8,148.4375
-Peach,Standard ATV,8,3,229.33333333333331
-Peach,Wild Wiggler,5,6,147.91666666666669
+Peach,Jet Bike,5,8,148.44
+Peach,Yoshi Bike,5,8,148.44
+Peach,Standard ATV,8,3,229.33
+Peach,Wild Wiggler,5,6,147.92
 Peach,Teddy Buggy,6,5,176.4
-Peach,GLA,8,3,229.33333333333331
-Peach,W 25 Silver Arrow,5,6,147.91666666666669
+Peach,GLA,8,3,229.33
+Peach,W 25 Silver Arrow,5,6,147.92
 Peach,300 SL Roadster,6,5,176.4
-Peach,Blue Falcon,5,6,147.91666666666669
-Peach,Tanooki Kart,7,4,203.875
-Peach,B Dasher,7,4,203.875
+Peach,Blue Falcon,5,6,147.92
+Peach,Tanooki Kart,7,4,203.88
+Peach,B Dasher,7,4,203.88
 Peach,Master Cycle,6,5,176.4
-Daisy,Standard Kart,6,5,176.4
-Daisy,Pipe Frame,5,6,147.91666666666669
-Daisy,Mach 8,7,4,203.875
-Daisy,Steel Driver,8,3,229.33333333333331
+Daisy,Standard Kart,7,6,205.92
+Daisy,Pipe Frame,5,6,147.92
+Daisy,Mach 8,7,4,203.88
+Daisy,Steel Driver,8,3,229.33
 Daisy,Cat Cruiser,6,5,176.4
-Daisy,Circuit Special,7,4,203.875
-Daisy,Tri-Speeder,8,3,229.33333333333331
-Daisy,Badwagon,8,3,229.33333333333331
+Daisy,Circuit Special,7,4,203.88
+Daisy,Tri-Speeder,8,3,229.33
+Daisy,Badwagon,8,3,229.33
 Daisy,Biddybuggy,4,10,119.2
 Daisy,Landship,4,10,119.2
 Daisy,Sneeker,6,5,176.4
-Daisy,Sports Coupe,7,4,203.875
-Daisy,Gold Standard,7,4,203.875
-Daisy,Standard Bike,5,6,147.91666666666669
-Daisy,Comet,5,8,148.4375
-Daisy,Sport Bike,5,8,148.4375
+Daisy,Sports Coupe,7,4,203.88
+Daisy,Gold Standard,7,4,203.88
+Daisy,Standard Bike,5,6,147.92
+Daisy,Comet,5,8,148.44
+Daisy,Sport Bike,5,8,148.44
 Daisy,The Duke,6,5,176.4
-Daisy,Flame Rider,5,6,147.91666666666669
-Daisy,Varmint,5,6,147.91666666666669
+Daisy,Flame Rider,5,6,147.92
+Daisy,Varmint,5,6,147.92
 Daisy,Mr. Scooty,4,10,119.2
-Daisy,Jet Bike,5,8,148.4375
-Daisy,Yoshi Bike,5,8,148.4375
-Daisy,Standard ATV,8,3,229.33333333333331
-Daisy,Wild Wiggler,5,6,147.91666666666669
+Daisy,Jet Bike,5,8,148.44
+Daisy,Yoshi Bike,5,8,148.44
+Daisy,Standard ATV,8,3,229.33
+Daisy,Wild Wiggler,5,6,147.92
 Daisy,Teddy Buggy,6,5,176.4
-Daisy,GLA,8,3,229.33333333333331
-Daisy,W 25 Silver Arrow,5,6,147.91666666666669
+Daisy,GLA,8,3,229.33
+Daisy,W 25 Silver Arrow,5,6,147.92
 Daisy,300 SL Roadster,6,5,176.4
-Daisy,Blue Falcon,5,6,147.91666666666669
-Daisy,Tanooki Kart,7,4,203.875
-Daisy,B Dasher,7,4,203.875
+Daisy,Blue Falcon,5,6,147.92
+Daisy,Tanooki Kart,7,4,203.88
+Daisy,B Dasher,7,4,203.88
 Daisy,Master Cycle,6,5,176.4
-Yoshi,Standard Kart,6,5,176.4
-Yoshi,Pipe Frame,5,6,147.91666666666669
-Yoshi,Mach 8,7,4,203.875
-Yoshi,Steel Driver,8,3,229.33333333333331
+Yoshi,Standard Kart,7,6,205.92
+Yoshi,Pipe Frame,5,6,147.92
+Yoshi,Mach 8,7,4,203.88
+Yoshi,Steel Driver,8,3,229.33
 Yoshi,Cat Cruiser,6,5,176.4
-Yoshi,Circuit Special,7,4,203.875
-Yoshi,Tri-Speeder,8,3,229.33333333333331
-Yoshi,Badwagon,8,3,229.33333333333331
+Yoshi,Circuit Special,7,4,203.88
+Yoshi,Tri-Speeder,8,3,229.33
+Yoshi,Badwagon,8,3,229.33
 Yoshi,Biddybuggy,4,10,119.2
 Yoshi,Landship,4,10,119.2
 Yoshi,Sneeker,6,5,176.4
-Yoshi,Sports Coupe,7,4,203.875
-Yoshi,Gold Standard,7,4,203.875
-Yoshi,Standard Bike,5,6,147.91666666666669
-Yoshi,Comet,5,8,148.4375
-Yoshi,Sport Bike,5,8,148.4375
+Yoshi,Sports Coupe,7,4,203.88
+Yoshi,Gold Standard,7,4,203.88
+Yoshi,Standard Bike,5,6,147.92
+Yoshi,Comet,5,8,148.44
+Yoshi,Sport Bike,5,8,148.44
 Yoshi,The Duke,6,5,176.4
-Yoshi,Flame Rider,5,6,147.91666666666669
-Yoshi,Varmint,5,6,147.91666666666669
+Yoshi,Flame Rider,5,6,147.92
+Yoshi,Varmint,5,6,147.92
 Yoshi,Mr. Scooty,4,10,119.2
-Yoshi,Jet Bike,5,8,148.4375
-Yoshi,Yoshi Bike,5,8,148.4375
-Yoshi,Standard ATV,8,3,229.33333333333331
-Yoshi,Wild Wiggler,5,6,147.91666666666669
+Yoshi,Jet Bike,5,8,148.44
+Yoshi,Yoshi Bike,5,8,148.44
+Yoshi,Standard ATV,8,3,229.33
+Yoshi,Wild Wiggler,5,6,147.92
 Yoshi,Teddy Buggy,6,5,176.4
-Yoshi,GLA,8,3,229.33333333333331
-Yoshi,W 25 Silver Arrow,5,6,147.91666666666669
+Yoshi,GLA,8,3,229.33
+Yoshi,W 25 Silver Arrow,5,6,147.92
 Yoshi,300 SL Roadster,6,5,176.4
-Yoshi,Blue Falcon,5,6,147.91666666666669
-Yoshi,Tanooki Kart,7,4,203.875
-Yoshi,B Dasher,7,4,203.875
+Yoshi,Blue Falcon,5,6,147.92
+Yoshi,Tanooki Kart,7,4,203.88
+Yoshi,B Dasher,7,4,203.88
 Yoshi,Master Cycle,6,5,176.4
-Toad,Standard Kart,4,6,118.66666666666666
-Toad,Pipe Frame,3,7,89.35714285714286
+Toad,Standard Kart,5,7,148.21
+Toad,Pipe Frame,3,7,89.36
 Toad,Mach 8,5,5,147.5
 Toad,Steel Driver,6,4,175.5
-Toad,Cat Cruiser,4,6,118.66666666666666
+Toad,Cat Cruiser,4,6,118.67
 Toad,Circuit Special,5,5,147.5
 Toad,Tri-Speeder,6,4,175.5
 Toad,Badwagon,6,4,175.5
-Toad,Biddybuggy,2,11,59.81818181818181
-Toad,Landship,2,11,59.81818181818181
-Toad,Sneeker,4,6,118.66666666666666
+Toad,Biddybuggy,2,11,59.82
+Toad,Landship,2,11,59.82
+Toad,Sneeker,4,6,118.67
 Toad,Sports Coupe,5,5,147.5
 Toad,Gold Standard,5,5,147.5
-Toad,Standard Bike,3,7,89.35714285714286
+Toad,Standard Bike,3,7,89.36
 Toad,Comet,3,9,89.5
 Toad,Sport Bike,3,9,89.5
-Toad,The Duke,4,6,118.66666666666666
-Toad,Flame Rider,3,7,89.35714285714286
-Toad,Varmint,3,7,89.35714285714286
-Toad,Mr. Scooty,2,11,59.81818181818181
+Toad,The Duke,4,6,118.67
+Toad,Flame Rider,3,7,89.36
+Toad,Varmint,3,7,89.36
+Toad,Mr. Scooty,2,11,59.82
 Toad,Jet Bike,3,9,89.5
 Toad,Yoshi Bike,3,9,89.5
 Toad,Standard ATV,6,4,175.5
-Toad,Wild Wiggler,3,7,89.35714285714286
-Toad,Teddy Buggy,4,6,118.66666666666666
+Toad,Wild Wiggler,3,7,89.36
+Toad,Teddy Buggy,4,6,118.67
 Toad,GLA,6,4,175.5
-Toad,W 25 Silver Arrow,3,7,89.35714285714286
-Toad,300 SL Roadster,4,6,118.66666666666666
-Toad,Blue Falcon,3,7,89.35714285714286
+Toad,W 25 Silver Arrow,3,7,89.36
+Toad,300 SL Roadster,4,6,118.67
+Toad,Blue Falcon,3,7,89.36
 Toad,Tanooki Kart,5,5,147.5
 Toad,B Dasher,5,5,147.5
-Toad,Master Cycle,4,6,118.66666666666666
-Toadette,Standard Kart,4,6,118.66666666666666
-Toadette,Pipe Frame,3,7,89.35714285714286
+Toad,Master Cycle,4,6,118.67
+Toadette,Standard Kart,5,7,148.21
+Toadette,Pipe Frame,3,7,89.36
 Toadette,Mach 8,5,5,147.5
 Toadette,Steel Driver,6,4,175.5
-Toadette,Cat Cruiser,4,6,118.66666666666666
+Toadette,Cat Cruiser,4,6,118.67
 Toadette,Circuit Special,5,5,147.5
 Toadette,Tri-Speeder,6,4,175.5
 Toadette,Badwagon,6,4,175.5
-Toadette,Biddybuggy,2,11,59.81818181818181
-Toadette,Landship,2,11,59.81818181818181
-Toadette,Sneeker,4,6,118.66666666666666
+Toadette,Biddybuggy,2,11,59.82
+Toadette,Landship,2,11,59.82
+Toadette,Sneeker,4,6,118.67
 Toadette,Sports Coupe,5,5,147.5
 Toadette,Gold Standard,5,5,147.5
-Toadette,Standard Bike,3,7,89.35714285714286
+Toadette,Standard Bike,3,7,89.36
 Toadette,Comet,3,9,89.5
 Toadette,Sport Bike,3,9,89.5
-Toadette,The Duke,4,6,118.66666666666666
-Toadette,Flame Rider,3,7,89.35714285714286
-Toadette,Varmint,3,7,89.35714285714286
-Toadette,Mr. Scooty,2,11,59.81818181818181
+Toadette,The Duke,4,6,118.67
+Toadette,Flame Rider,3,7,89.36
+Toadette,Varmint,3,7,89.36
+Toadette,Mr. Scooty,2,11,59.82
 Toadette,Jet Bike,3,9,89.5
 Toadette,Yoshi Bike,3,9,89.5
 Toadette,Standard ATV,6,4,175.5
-Toadette,Wild Wiggler,3,7,89.35714285714286
-Toadette,Teddy Buggy,4,6,118.66666666666666
+Toadette,Wild Wiggler,3,7,89.36
+Toadette,Teddy Buggy,4,6,118.67
 Toadette,GLA,6,4,175.5
-Toadette,W 25 Silver Arrow,3,7,89.35714285714286
-Toadette,300 SL Roadster,4,6,118.66666666666666
-Toadette,Blue Falcon,3,7,89.35714285714286
+Toadette,W 25 Silver Arrow,3,7,89.36
+Toadette,300 SL Roadster,4,6,118.67
+Toadette,Blue Falcon,3,7,89.36
 Toadette,Tanooki Kart,5,5,147.5
 Toadette,B Dasher,5,5,147.5
-Toadette,Master Cycle,4,6,118.66666666666666
-Koopa Troopa,Standard Kart,4,6,118.66666666666666
-Koopa Troopa,Pipe Frame,3,7,89.35714285714286
+Toadette,Master Cycle,4,6,118.67
+Koopa Troopa,Standard Kart,5,7,148.21
+Koopa Troopa,Pipe Frame,3,7,89.36
 Koopa Troopa,Mach 8,5,5,147.5
 Koopa Troopa,Steel Driver,6,4,175.5
-Koopa Troopa,Cat Cruiser,4,6,118.66666666666666
+Koopa Troopa,Cat Cruiser,4,6,118.67
 Koopa Troopa,Circuit Special,5,5,147.5
 Koopa Troopa,Tri-Speeder,6,4,175.5
 Koopa Troopa,Badwagon,6,4,175.5
-Koopa Troopa,Biddybuggy,2,11,59.81818181818181
-Koopa Troopa,Landship,2,11,59.81818181818181
-Koopa Troopa,Sneeker,4,6,118.66666666666666
+Koopa Troopa,Biddybuggy,2,11,59.82
+Koopa Troopa,Landship,2,11,59.82
+Koopa Troopa,Sneeker,4,6,118.67
 Koopa Troopa,Sports Coupe,5,5,147.5
 Koopa Troopa,Gold Standard,5,5,147.5
-Koopa Troopa,Standard Bike,3,7,89.35714285714286
+Koopa Troopa,Standard Bike,3,7,89.36
 Koopa Troopa,Comet,3,9,89.5
 Koopa Troopa,Sport Bike,3,9,89.5
-Koopa Troopa,The Duke,4,6,118.66666666666666
-Koopa Troopa,Flame Rider,3,7,89.35714285714286
-Koopa Troopa,Varmint,3,7,89.35714285714286
-Koopa Troopa,Mr. Scooty,2,11,59.81818181818181
+Koopa Troopa,The Duke,4,6,118.67
+Koopa Troopa,Flame Rider,3,7,89.36
+Koopa Troopa,Varmint,3,7,89.36
+Koopa Troopa,Mr. Scooty,2,11,59.82
 Koopa Troopa,Jet Bike,3,9,89.5
 Koopa Troopa,Yoshi Bike,3,9,89.5
 Koopa Troopa,Standard ATV,6,4,175.5
-Koopa Troopa,Wild Wiggler,3,7,89.35714285714286
-Koopa Troopa,Teddy Buggy,4,6,118.66666666666666
+Koopa Troopa,Wild Wiggler,3,7,89.36
+Koopa Troopa,Teddy Buggy,4,6,118.67
 Koopa Troopa,GLA,6,4,175.5
-Koopa Troopa,W 25 Silver Arrow,3,7,89.35714285714286
-Koopa Troopa,300 SL Roadster,4,6,118.66666666666666
-Koopa Troopa,Blue Falcon,3,7,89.35714285714286
+Koopa Troopa,W 25 Silver Arrow,3,7,89.36
+Koopa Troopa,300 SL Roadster,4,6,118.67
+Koopa Troopa,Blue Falcon,3,7,89.36
 Koopa Troopa,Tanooki Kart,5,5,147.5
 Koopa Troopa,B Dasher,5,5,147.5
-Koopa Troopa,Master Cycle,4,6,118.66666666666666
-Bowser,Standard Kart,12,2,324.0
-Bowser,Pipe Frame,11,3,309.8333333333333
+Koopa Troopa,Master Cycle,4,6,118.67
+Bowser,Standard Kart,13,3,361.83
+Bowser,Pipe Frame,11,3,309.83
 Bowser,Mach 8,13,1,305.5
 Bowser,Steel Driver,14,0,45.0
 Bowser,Cat Cruiser,12,2,324.0
 Bowser,Circuit Special,13,1,305.5
 Bowser,Tri-Speeder,14,0,45.0
 Bowser,Badwagon,14,0,45.0
-Bowser,Biddybuggy,10,7,292.8571428571429
-Bowser,Landship,10,7,292.8571428571429
+Bowser,Biddybuggy,10,7,292.86
+Bowser,Landship,10,7,292.86
 Bowser,Sneeker,12,2,324.0
 Bowser,Sports Coupe,13,1,305.5
 Bowser,Gold Standard,13,1,305.5
-Bowser,Standard Bike,11,3,309.8333333333333
-Bowser,Comet,11,5,317.90000000000003
-Bowser,Sport Bike,11,5,317.90000000000003
+Bowser,Standard Bike,11,3,309.83
+Bowser,Comet,11,5,317.9
+Bowser,Sport Bike,11,5,317.9
 Bowser,The Duke,12,2,324.0
-Bowser,Flame Rider,11,3,309.8333333333333
-Bowser,Varmint,11,3,309.8333333333333
-Bowser,Mr. Scooty,10,7,292.8571428571429
-Bowser,Jet Bike,11,5,317.90000000000003
-Bowser,Yoshi Bike,11,5,317.90000000000003
+Bowser,Flame Rider,11,3,309.83
+Bowser,Varmint,11,3,309.83
+Bowser,Mr. Scooty,10,7,292.86
+Bowser,Jet Bike,11,5,317.9
+Bowser,Yoshi Bike,11,5,317.9
 Bowser,Standard ATV,14,0,45.0
-Bowser,Wild Wiggler,11,3,309.8333333333333
+Bowser,Wild Wiggler,11,3,309.83
 Bowser,Teddy Buggy,12,2,324.0
 Bowser,GLA,14,0,45.0
-Bowser,W 25 Silver Arrow,11,3,309.8333333333333
+Bowser,W 25 Silver Arrow,11,3,309.83
 Bowser,300 SL Roadster,12,2,324.0
-Bowser,Blue Falcon,11,3,309.8333333333333
+Bowser,Blue Falcon,11,3,309.83
 Bowser,Tanooki Kart,13,1,305.5
 Bowser,B Dasher,13,1,305.5
 Bowser,Master Cycle,12,2,324.0
-Donkey Kong,Standard Kart,10,3,283.33333333333337
-Donkey Kong,Pipe Frame,9,4,259.875
+Donkey Kong,Standard Kart,11,4,314.88
+Donkey Kong,Pipe Frame,9,4,259.88
 Donkey Kong,Mach 8,11,2,299.75
 Donkey Kong,Steel Driver,12,1,288.0
-Donkey Kong,Cat Cruiser,10,3,283.33333333333337
+Donkey Kong,Cat Cruiser,10,3,283.33
 Donkey Kong,Circuit Special,11,2,299.75
 Donkey Kong,Tri-Speeder,12,1,288.0
 Donkey Kong,Badwagon,12,1,288.0
 Donkey Kong,Biddybuggy,8,8,236.0
 Donkey Kong,Landship,8,8,236.0
-Donkey Kong,Sneeker,10,3,283.33333333333337
+Donkey Kong,Sneeker,10,3,283.33
 Donkey Kong,Sports Coupe,11,2,299.75
 Donkey Kong,Gold Standard,11,2,299.75
-Donkey Kong,Standard Bike,9,4,259.875
+Donkey Kong,Standard Bike,9,4,259.88
 Donkey Kong,Comet,9,6,263.25
 Donkey Kong,Sport Bike,9,6,263.25
-Donkey Kong,The Duke,10,3,283.33333333333337
-Donkey Kong,Flame Rider,9,4,259.875
-Donkey Kong,Varmint,9,4,259.875
+Donkey Kong,The Duke,10,3,283.33
+Donkey Kong,Flame Rider,9,4,259.88
+Donkey Kong,Varmint,9,4,259.88
 Donkey Kong,Mr. Scooty,8,8,236.0
 Donkey Kong,Jet Bike,9,6,263.25
 Donkey Kong,Yoshi Bike,9,6,263.25
 Donkey Kong,Standard ATV,12,1,288.0
-Donkey Kong,Wild Wiggler,9,4,259.875
-Donkey Kong,Teddy Buggy,10,3,283.33333333333337
+Donkey Kong,Wild Wiggler,9,4,259.88
+Donkey Kong,Teddy Buggy,10,3,283.33
 Donkey Kong,GLA,12,1,288.0
-Donkey Kong,W 25 Silver Arrow,9,4,259.875
-Donkey Kong,300 SL Roadster,10,3,283.33333333333337
-Donkey Kong,Blue Falcon,9,4,259.875
+Donkey Kong,W 25 Silver Arrow,9,4,259.88
+Donkey Kong,300 SL Roadster,10,3,283.33
+Donkey Kong,Blue Falcon,9,4,259.88
 Donkey Kong,Tanooki Kart,11,2,299.75
 Donkey Kong,B Dasher,11,2,299.75
-Donkey Kong,Master Cycle,10,3,283.33333333333337
-Wario,Standard Kart,12,2,324.0
-Wario,Pipe Frame,11,3,309.8333333333333
+Donkey Kong,Master Cycle,10,3,283.33
+Wario,Standard Kart,13,3,361.83
+Wario,Pipe Frame,11,3,309.83
 Wario,Mach 8,13,1,305.5
 Wario,Steel Driver,14,0,45.0
 Wario,Cat Cruiser,12,2,324.0
 Wario,Circuit Special,13,1,305.5
 Wario,Tri-Speeder,14,0,45.0
 Wario,Badwagon,14,0,45.0
-Wario,Biddybuggy,10,7,292.8571428571429
-Wario,Landship,10,7,292.8571428571429
+Wario,Biddybuggy,10,7,292.86
+Wario,Landship,10,7,292.86
 Wario,Sneeker,12,2,324.0
 Wario,Sports Coupe,13,1,305.5
 Wario,Gold Standard,13,1,305.5
-Wario,Standard Bike,11,3,309.8333333333333
-Wario,Comet,11,5,317.90000000000003
-Wario,Sport Bike,11,5,317.90000000000003
+Wario,Standard Bike,11,3,309.83
+Wario,Comet,11,5,317.9
+Wario,Sport Bike,11,5,317.9
 Wario,The Duke,12,2,324.0
-Wario,Flame Rider,11,3,309.8333333333333
-Wario,Varmint,11,3,309.8333333333333
-Wario,Mr. Scooty,10,7,292.8571428571429
-Wario,Jet Bike,11,5,317.90000000000003
-Wario,Yoshi Bike,11,5,317.90000000000003
+Wario,Flame Rider,11,3,309.83
+Wario,Varmint,11,3,309.83
+Wario,Mr. Scooty,10,7,292.86
+Wario,Jet Bike,11,5,317.9
+Wario,Yoshi Bike,11,5,317.9
 Wario,Standard ATV,14,0,45.0
-Wario,Wild Wiggler,11,3,309.8333333333333
+Wario,Wild Wiggler,11,3,309.83
 Wario,Teddy Buggy,12,2,324.0
 Wario,GLA,14,0,45.0
-Wario,W 25 Silver Arrow,11,3,309.8333333333333
+Wario,W 25 Silver Arrow,11,3,309.83
 Wario,300 SL Roadster,12,2,324.0
-Wario,Blue Falcon,11,3,309.8333333333333
+Wario,Blue Falcon,11,3,309.83
 Wario,Tanooki Kart,13,1,305.5
 Wario,B Dasher,13,1,305.5
 Wario,Master Cycle,12,2,324.0
-Waluigi,Standard Kart,10,3,283.33333333333337
-Waluigi,Pipe Frame,9,4,259.875
+Waluigi,Standard Kart,11,4,314.88
+Waluigi,Pipe Frame,9,4,259.88
 Waluigi,Mach 8,11,2,299.75
 Waluigi,Steel Driver,12,1,288.0
-Waluigi,Cat Cruiser,10,3,283.33333333333337
+Waluigi,Cat Cruiser,10,3,283.33
 Waluigi,Circuit Special,11,2,299.75
 Waluigi,Tri-Speeder,12,1,288.0
 Waluigi,Badwagon,12,1,288.0
 Waluigi,Biddybuggy,8,8,236.0
 Waluigi,Landship,8,8,236.0
-Waluigi,Sneeker,10,3,283.33333333333337
+Waluigi,Sneeker,10,3,283.33
 Waluigi,Sports Coupe,11,2,299.75
 Waluigi,Gold Standard,11,2,299.75
-Waluigi,Standard Bike,9,4,259.875
+Waluigi,Standard Bike,9,4,259.88
 Waluigi,Comet,9,6,263.25
 Waluigi,Sport Bike,9,6,263.25
-Waluigi,The Duke,10,3,283.33333333333337
-Waluigi,Flame Rider,9,4,259.875
-Waluigi,Varmint,9,4,259.875
+Waluigi,The Duke,10,3,283.33
+Waluigi,Flame Rider,9,4,259.88
+Waluigi,Varmint,9,4,259.88
 Waluigi,Mr. Scooty,8,8,236.0
 Waluigi,Jet Bike,9,6,263.25
 Waluigi,Yoshi Bike,9,6,263.25
 Waluigi,Standard ATV,12,1,288.0
-Waluigi,Wild Wiggler,9,4,259.875
-Waluigi,Teddy Buggy,10,3,283.33333333333337
+Waluigi,Wild Wiggler,9,4,259.88
+Waluigi,Teddy Buggy,10,3,283.33
 Waluigi,GLA,12,1,288.0
-Waluigi,W 25 Silver Arrow,9,4,259.875
-Waluigi,300 SL Roadster,10,3,283.33333333333337
-Waluigi,Blue Falcon,9,4,259.875
+Waluigi,W 25 Silver Arrow,9,4,259.88
+Waluigi,300 SL Roadster,10,3,283.33
+Waluigi,Blue Falcon,9,4,259.88
 Waluigi,Tanooki Kart,11,2,299.75
 Waluigi,B Dasher,11,2,299.75
-Waluigi,Master Cycle,10,3,283.33333333333337
-Rosalina,Standard Kart,10,3,283.33333333333337
-Rosalina,Pipe Frame,9,4,259.875
+Waluigi,Master Cycle,10,3,283.33
+Rosalina,Standard Kart,11,4,314.88
+Rosalina,Pipe Frame,9,4,259.88
 Rosalina,Mach 8,11,2,299.75
 Rosalina,Steel Driver,12,1,288.0
-Rosalina,Cat Cruiser,10,3,283.33333333333337
+Rosalina,Cat Cruiser,10,3,283.33
 Rosalina,Circuit Special,11,2,299.75
 Rosalina,Tri-Speeder,12,1,288.0
 Rosalina,Badwagon,12,1,288.0
 Rosalina,Biddybuggy,8,8,236.0
 Rosalina,Landship,8,8,236.0
-Rosalina,Sneeker,10,3,283.33333333333337
+Rosalina,Sneeker,10,3,283.33
 Rosalina,Sports Coupe,11,2,299.75
 Rosalina,Gold Standard,11,2,299.75
-Rosalina,Standard Bike,9,4,259.875
+Rosalina,Standard Bike,9,4,259.88
 Rosalina,Comet,9,6,263.25
 Rosalina,Sport Bike,9,6,263.25
-Rosalina,The Duke,10,3,283.33333333333337
-Rosalina,Flame Rider,9,4,259.875
-Rosalina,Varmint,9,4,259.875
+Rosalina,The Duke,10,3,283.33
+Rosalina,Flame Rider,9,4,259.88
+Rosalina,Varmint,9,4,259.88
 Rosalina,Mr. Scooty,8,8,236.0
 Rosalina,Jet Bike,9,6,263.25
 Rosalina,Yoshi Bike,9,6,263.25
 Rosalina,Standard ATV,12,1,288.0
-Rosalina,Wild Wiggler,9,4,259.875
-Rosalina,Teddy Buggy,10,3,283.33333333333337
+Rosalina,Wild Wiggler,9,4,259.88
+Rosalina,Teddy Buggy,10,3,283.33
 Rosalina,GLA,12,1,288.0
-Rosalina,W 25 Silver Arrow,9,4,259.875
-Rosalina,300 SL Roadster,10,3,283.33333333333337
-Rosalina,Blue Falcon,9,4,259.875
+Rosalina,W 25 Silver Arrow,9,4,259.88
+Rosalina,300 SL Roadster,10,3,283.33
+Rosalina,Blue Falcon,9,4,259.88
 Rosalina,Tanooki Kart,11,2,299.75
 Rosalina,B Dasher,11,2,299.75
-Rosalina,Master Cycle,10,3,283.33333333333337
-Metal Mario,Standard Kart,12,2,324.0
-Metal Mario,Pipe Frame,11,3,309.8333333333333
+Rosalina,Master Cycle,10,3,283.33
+Metal Mario,Standard Kart,13,3,361.83
+Metal Mario,Pipe Frame,11,3,309.83
 Metal Mario,Mach 8,13,1,305.5
 Metal Mario,Steel Driver,14,0,45.0
 Metal Mario,Cat Cruiser,12,2,324.0
 Metal Mario,Circuit Special,13,1,305.5
 Metal Mario,Tri-Speeder,14,0,45.0
 Metal Mario,Badwagon,14,0,45.0
-Metal Mario,Biddybuggy,10,7,292.8571428571429
-Metal Mario,Landship,10,7,292.8571428571429
+Metal Mario,Biddybuggy,10,7,292.86
+Metal Mario,Landship,10,7,292.86
 Metal Mario,Sneeker,12,2,324.0
 Metal Mario,Sports Coupe,13,1,305.5
 Metal Mario,Gold Standard,13,1,305.5
-Metal Mario,Standard Bike,11,3,309.8333333333333
-Metal Mario,Comet,11,5,317.90000000000003
-Metal Mario,Sport Bike,11,5,317.90000000000003
+Metal Mario,Standard Bike,11,3,309.83
+Metal Mario,Comet,11,5,317.9
+Metal Mario,Sport Bike,11,5,317.9
 Metal Mario,The Duke,12,2,324.0
-Metal Mario,Flame Rider,11,3,309.8333333333333
-Metal Mario,Varmint,11,3,309.8333333333333
-Metal Mario,Mr. Scooty,10,7,292.8571428571429
-Metal Mario,Jet Bike,11,5,317.90000000000003
-Metal Mario,Yoshi Bike,11,5,317.90000000000003
+Metal Mario,Flame Rider,11,3,309.83
+Metal Mario,Varmint,11,3,309.83
+Metal Mario,Mr. Scooty,10,7,292.86
+Metal Mario,Jet Bike,11,5,317.9
+Metal Mario,Yoshi Bike,11,5,317.9
 Metal Mario,Standard ATV,14,0,45.0
-Metal Mario,Wild Wiggler,11,3,309.8333333333333
+Metal Mario,Wild Wiggler,11,3,309.83
 Metal Mario,Teddy Buggy,12,2,324.0
 Metal Mario,GLA,14,0,45.0
-Metal Mario,W 25 Silver Arrow,11,3,309.8333333333333
+Metal Mario,W 25 Silver Arrow,11,3,309.83
 Metal Mario,300 SL Roadster,12,2,324.0
-Metal Mario,Blue Falcon,11,3,309.8333333333333
+Metal Mario,Blue Falcon,11,3,309.83
 Metal Mario,Tanooki Kart,13,1,305.5
 Metal Mario,B Dasher,13,1,305.5
 Metal Mario,Master Cycle,12,2,324.0
