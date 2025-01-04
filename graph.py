@@ -1,45 +1,67 @@
 import matplotlib.pyplot as plt
 import numpy as np
 
-# Define constants
-Vmax = 10  # Maximum speed (m/s)
-a = 5      # Acceleration (m/s^2)
-t1 = Vmax / a  # Time to reach maximum speed (s)
-T = 30     # Total race duration (s)
+# define constants for mario + standard kart
+vmax1 = 10  # maximum speed (m/s)
+a1 = 5      # acceleration (m/s^2)
+t1_1 = vmax1 / a1  # time to reach maximum speed (s)
+T = 30      # total race duration (s)
 
-# Create time arrays for the two phases
-time_acceleration = np.linspace(0, t1, 100)  # Time for acceleration phase
-time_constant = np.linspace(t1, T, 100)      # Time for constant speed phase
+# define constants for bowser + steel driver
+vmax2 = 14  # maximum speed (m/s)
+a2 = 2      # acceleration (m/s^2)
+t1_2 = vmax2 / a2  # time to reach maximum speed (s)
 
-# Velocity functions
-velocity_acceleration = a * time_acceleration  # v(t) = a * t for acceleration phase
-velocity_constant = Vmax * np.ones_like(time_constant)  # v(t) = Vmax for constant speed phase
+# create time arrays for the two combinations
+# combination 1: mario + standard kart
+time_acceleration1 = np.linspace(0, t1_1, 100)
+time_constant1 = np.linspace(t1_1, T, 100)
+velocity_acceleration1 = a1 * time_acceleration1
+velocity_constant1 = vmax1 * np.ones_like(time_constant1)
 
-# Plot the velocity-time graph
-plt.figure(figsize=(8, 5))
-plt.plot(time_acceleration, velocity_acceleration, label="Acceleration Phase", color="darkorange", linewidth=1.5)
-plt.plot(time_constant, velocity_constant, label="Constant Speed Phase", color="royalblue", linewidth=1.5)
+time1 = np.concatenate([time_acceleration1, time_constant1])
+velocity1 = np.concatenate([velocity_acceleration1, velocity_constant1])
 
-# Shade the areas under the curves
-plt.fill_between(time_acceleration, velocity_acceleration, color="red", alpha=0.3, label="Displacement (D1)")
-plt.fill_between(time_constant, velocity_constant, color="blue", alpha=0.3, label="Displacement (D2)")
+# combination 2: bowser + steel driver
+time_acceleration2 = np.linspace(0, t1_2, 100)
+time_constant2 = np.linspace(t1_2, T, 100)
+velocity_acceleration2 = a2 * time_acceleration2
+velocity_constant2 = vmax2 * np.ones_like(time_constant2)
 
-# Annotate important points
-plt.scatter([0, t1, T], [0, Vmax, Vmax], color="black", s=20, zorder=5)  # Key points (0,0), (t1, Vmax), (T, Vmax)
-plt.text(t1 / 2, Vmax / 4, "D1 (10 m)", color="red", fontsize=9, ha="center")
-plt.text(t1 + (T - t1) / 2, Vmax / 1.5, "D2 (280 m)", color="blue", fontsize=9, ha="center")
+time2 = np.concatenate([time_acceleration2, time_constant2])
+velocity2 = np.concatenate([velocity_acceleration2, velocity_constant2])
 
-# Add labels, title, and legend
-plt.title("Velocity-Time Graph for Mario + Standard Kart", fontsize=12, pad=10)
-plt.xlabel("Time (seconds)", fontsize=10, labelpad=8)
-plt.ylabel("Velocity (m/s)", fontsize=10, labelpad=8)
+# calculate displacements
+D1_acceleration = 0.5 * a1 * t1_1**2
+D1_constant = vmax1 * (T - t1_1)
+D1_total = D1_acceleration + D1_constant
+
+D2_acceleration = 0.5 * a2 * t1_2**2
+D2_constant = vmax2 * (T - t1_2)
+D2_total = D2_acceleration + D2_constant
+
+# plot the velocity-time graph
+plt.figure(figsize=(10, 6))
+plt.plot(time1, velocity1, label=f"Mario + Standard Kart (Total: {D1_total:.2f} M)", color="darkorange", linewidth=1.5)
+plt.plot(time2, velocity2, label=f"Bowser + Steel Driver (Total: {D2_total:.2f} M)", color="green", linewidth=1.5)
+
+# shade the areas under the curves
+plt.fill_between(time_acceleration1, velocity_acceleration1, color="red", alpha=0.3, label=f"Mario D1: {D1_acceleration:.2f} M")
+plt.fill_between(time_constant1, velocity_constant1, color="blue", alpha=0.3, label=f"Mario D2: {D1_constant:.2f} M")
+plt.fill_between(time_acceleration2, velocity_acceleration2, color="lime", alpha=0.3, label=f"Bowser D1: {D2_acceleration:.2f} M")
+plt.fill_between(time_constant2, velocity_constant2, color="cyan", alpha=0.3, label=f"Bowser D2: {D2_constant:.2f} M")
+
+# add labels, title, and legend
+plt.title("Velocity-Time Graph: Combination Comparison", fontsize=14, pad=12)
+plt.xlabel("Time (Seconds)", fontsize=12, labelpad=10)
+plt.ylabel("Velocity (M/S)", fontsize=12, labelpad=10)
 plt.axhline(0, color="black", linewidth=0.8, linestyle="--", alpha=0.7)
 plt.axvline(0, color="black", linewidth=0.8, linestyle="--", alpha=0.7)
 
-# Adjust grid, legend, and layout
+# adjust grid, legend, and layout
 plt.grid(alpha=0.3)
-plt.legend(fontsize=9, loc="lower right")
+plt.legend(fontsize=10, loc="lower right")
 plt.tight_layout()
 
-# Show the graph
+# show the graph
 plt.show()
